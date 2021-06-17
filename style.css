@@ -1,0 +1,1057 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+
+.main_tag{
+   width: 100%;
+    height: auto;
+    
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+.left_tag{
+   margin-left: 50px;
+   color: black;
+}.left_tag a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-left: 20px;
+    align-items: center;
+    text-align: center;
+    color: black;
+
+}
+.left_tag a:hover{
+    color: #50a7f0;
+    
+}
+.right_tag{
+    margin-right: 40px;
+   
+}
+.right_tag .login{
+    padding-right: 35px;
+    color: black;
+   
+    text-decoration:none;
+   
+    align-items: center;
+    text-align: center;
+}
+.right_tag .login:hover{
+    color: #50a7f0;
+    
+}
+.post{
+    border: none;
+    background: #f77d0e;
+    text-align: center;
+    padding: 6px 7px;
+    display: inline-block;
+    margin: 4px 9px;
+    color: white;
+    
+    
+}
+.post:hover{
+    color: white;
+    text-decoration: none;
+    background: #fc8c14;
+    
+
+}
+
+.second_nav{
+    width: auto;
+    height: 8vh;
+    background: #0e1724;
+    display: flex;
+    justify-content: space-between;
+
+}
+/* dropdown button */
+.dropbtn {
+background-color:#0e1724;
+color: white;
+padding: 10px;
+font-size: 16px;
+border: none;
+text-transform: capitalize;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+text-transform: capitalize;    
+display: none;
+position: absolute;
+background-color: white;
+min-width: 250px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index:1;
+
+}
+
+.dropdown-content a {
+color: black;
+padding: 5px 7px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {
+
+color: #50a7f0;
+
+
+}
+
+.dropdown:hover .dropdown-content {
+
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: #323a45;
+}
+#btn1
+{
+    padding-left: 100px;
+}
+#btn4
+{
+    padding-right: 400px;
+}
+
+
+ .video-tag{
+    flex-direction: initial;
+    width:100%;
+    height: 85vh;
+    background: black;
+   float: left;
+   
+    
+}
+#video-layout{
+    width: auto;
+    height: 85vh;
+    position: absolute;
+     object-fit: cover;
+        
+    } 
+.video-tag div{
+     z-index: 1;
+    position: relative;
+    padding-top: 150px;
+    padding-left: 105px;
+}
+.video-tag h1{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+    /* float: left; */
+}
+.video-tag p{
+    color: white;
+    padding-top: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.video-tag a{
+    color: white;
+    text-decoration: none;
+    padding-right: 40px;
+    padding-left: 30px;
+    font-size: 20px;
+
+}
+.video-tag .hire{
+   
+    padding: 10px 28px ;
+    display: inline-block;
+    text-align: center;
+    margin: 6px 2px;
+    cursor: pointer;
+    border: 2px solid #f20091;
+    background: #f20091;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.video-tag .hire:hover{
+    background: #fa5f9b;
+    border-color: #fa5f9b;
+}
+.video-tag .earn{
+    font-size: 20px;
+    font-weight: bold;
+    background: transparent;
+    /* border-width: 7px 5px; */
+    padding: 10px 28px ;
+    display: inline-block;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid white;
+
+}
+.video-tag .earn:hover{
+    opacity: 0.8;
+}
+/* company content */
+.img1{
+    padding-top: 20px;
+    width: 19vh;
+    height: auto;
+}
+.img2{
+    width: 19vh;
+    height: auto;
+}
+.img3{
+    width: 19vh;
+    height: auto;
+}
+.img4{
+    width: 18vh;
+    height: auto;
+}
+.img5{
+    width: 17vh;
+    height: 15vh;
+}
+.img6{
+    width: 19vh;
+    height: auto;
+}
+.img7{
+    width: 19vh;
+    height: auto;
+}
+.img8{
+    width: 18vh;
+    height: auto;
+    float: right;
+    padding-right: 20px;
+
+}
+
+.row{
+    width: 100%;
+    height: 16vh;
+    float: left;
+    display: flex;
+    object-fit: cover;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+.col1{
+    width: 18%;
+    height: 16vh;
+    float: left;
+    padding-left: 90px;
+    align-items: center;
+    padding-top:46px;
+}
+.col1 h1{
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.column1{
+    width: 82%;
+    height: 16vh;
+    float: right;
+    padding-right: 30px;
+    padding-top: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hr-tag{
+    float: left;
+    margin-left: 70px;
+    width: 1390px;
+    height: 1vh;
+    background: white;
+    
+}
+/* need something done content  */
+.need-something{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-bottom: 150px;
+    background: white;
+}
+.need-tag{
+    width: 100%;
+    float: left;
+    padding-bottom: 70px;
+}
+.need-tag h1{
+    float: left;
+    font-weight: bold;
+    font-size: 45px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-left: 70px;
+    padding-top: 60px;
+}
+
+.cont-tag{
+    width: 100%;
+    height: 40vh;
+    float: left;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.h1-comp-tag{
+    display: flex;
+    align-items: center;
+}
+.cont2-tag h1{
+   font-size: 25px;
+   padding-left: 7px;
+   font-weight: bold;
+   color: black;
+}
+.cont2-tag p{
+    float: left;
+    font-size: 15px;
+    color: black;
+    padding-top: 15px;
+    word-spacing: 1px;
+    letter-spacing: 1px; 
+}
+
+.h1-comp-tag h1{
+    font-size: 25px;
+    padding-left: 7px;
+    font-weight: bold;
+    color: black;
+}
+.computer-tag{
+    float: left;
+    padding-left: 70px;
+}
+.cont4-tag{
+    float: right;
+    padding-right: 60px;
+}
+.computer-tag p{
+    font-size: 15px;
+    color: black;
+    padding-top: 15px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.pay-tag h1{
+
+    
+    font-size: 25px;
+    padding-left: 7px;
+    font-weight: bold;
+    color: black;
+}
+.cont3-tag p{
+    font-size: 15px;
+    color: black;
+    padding-top: 15px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.help-tag h1{
+    font-size: 25px;
+    padding-left: 7px;
+    font-weight: bold;
+    color: black;
+}
+.cont4-tag p{
+    font-size: 15px;
+    color: black;
+    padding-top: 15px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.choose-tag{
+    display: flex;
+    align-items: center;
+}
+.pay-tag{
+    display: flex;
+    align-items: center;
+}
+.help-tag{
+    display: flex;
+    align-items: center;
+}
+.hr3-tag hr{
+    float: left;
+    margin-left: 70px;
+    width: 1390px;
+    height: 1vh;
+    background: white;
+}
+
+
+/* what great about it tag  */
+
+
+.what-about{
+    width: 100%;
+    float: left;
+    height: auto;
+    background: white;
+    padding-bottom: 150px;
+    
+}
+.h1-what{
+    width: 100%;
+    float: left;
+    padding-bottom: 70px;
+}
+.h1-what h1{
+    float: left;
+    font-weight: bold;
+    font-size: 45px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-left: 70px;
+    padding-top: 60px; 
+}
+.great-about-content{
+    width: 100%;
+    height: 40vh;
+    float: left;
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.professional-tag{
+    float: left;
+    padding-left: 70px;
+}
+.h1-pic-tag h1{
+    font-size: 25px;
+    padding-left: 7px;
+    font-weight: bold;
+    color: black;
+}
+.h1-pic-tag{
+    display: flex;
+    align-items: center;
+}
+.professional-tag p{
+    font-size: 15px;
+    color: black;
+    padding-top: 15px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.adress-tag{
+    display: flex;
+    align-items: center;
+}
+.adress-tag h1{
+    font-size: 25px;
+    padding-left: 7px;
+    font-weight: bold;
+    color: black;
+}
+.fast-bids-tag p{
+    font-size: 15px;
+    color: black;
+    padding-top: 15px;
+    word-spacing: 1px;
+    letter-spacing: 1px; 
+}
+
+.like-h1{
+    display: flex;
+    align-items: center;
+}
+.like-h1 h1{
+    font-size: 25px;
+    padding-left: 7px;
+    font-weight: bold;
+    color: black;
+}
+.quality-tag p{
+    font-size: 15px;
+    color: black;
+    padding-top: 15px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.track-tag{
+    float: right;
+    padding-right: 60px;
+}
+.timer-h1{
+    display: flex;
+    align-items: center;
+}
+.timer-h1 h1{
+    font-size: 25px;
+    padding-left: 7px;
+    font-weight: bold;
+    color: black; 
+}
+.track-tag p{
+    font-size: 15px;
+    color: black;
+    padding-top: 15px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.hr4-tag{
+    float: left;
+    margin-left: 70px;
+    width: 1390px;
+    height: 1vh;
+    background: white;
+}
+
+
+/* make it real content  */
+
+.sec6{
+    width: 100%;
+    height: auto;
+    float: left;
+   
+}
+.sec6 div {
+    margin-left: 580px;
+    
+    
+  
+}
+.sec6 div a{
+    padding: 10px 28px ;
+    display: inline-block;
+    text-align: center;
+    margin: 6px 2px;
+    cursor: pointer;
+    border: 2px solid #f20091;
+    background: #f20091;
+    font-size: 20px;
+    font-weight: bold;  
+    text-decoration: none;
+    color: white;
+}
+.sec6 div a:hover{
+    background: #fa5f9b;
+    border-color: #fa5f9b;
+}
+
+/* footer  tag  */
+
+
+.footer-buttom-tag{
+    
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    align-items: center;
+    color: white;
+}
+.footer-left-tag{
+    padding-left: 40px;
+}
+.footer-left-tag h1{
+    
+    font-size: 20px;
+    color: white;
+}
+footer{
+    background: #161e2c;
+    width: 100%;
+    height: auto;
+}
+.footer-center-tag h1{
+    font-size:20px ;
+    color: white;
+}
+.footer-right-tag{
+    padding-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+.footer-right-tag p{
+    font-size: 13px;
+    color: white;
+}
+.hr hr{
+    width: auto;
+    height: 1px;
+    color: white;
+} 
+.left_tag{
+    color: white;
+    display: inline-block;
+}
+.content-tag{
+    display: flex;
+    justify-content: space-between;
+}
+.left-tag{
+    padding-left: 20px;
+}
+.img-tag{
+    padding-left: 20px;
+}
+#globe{
+    padding-top: 10px;
+    padding-left: 30px;
+    color: white;
+
+}
+#globe a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    letter-spacing: 1px;
+    
+    font-weight: 100;
+    font-size: 14px;
+}
+#globe a:hover{
+    border-bottom: 1px solid white;
+}
+#circle{
+    padding-top: 20px;
+    padding-left: 30px;
+    color: white;
+
+}
+#circle a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    letter-spacing: 1px;
+       word-spacing: 1px;
+     font-weight: 100;
+    font-size: 14px;
+}
+#circle a:hover{
+    border-bottom: 1px solid white;
+} 
+.content-right-tag1{
+    display: flex;
+    justify-content: space-between;
+}
+ .content-side-tag h1{
+    padding-top: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.freelance{
+    display:grid;
+    color: white;
+    text-decoration: none;
+    float: left;
+    padding-bottom: 20px;
+    padding-right: 70px;
+}
+.freelance a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-bottom: 5px; 
+}
+ 
+.terms-content h1{
+    padding-top: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.terms-content-tag{
+    display: grid;
+    float: left;
+    padding-right: 40px;
+}
+.terms-content-tag a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.aboutus-tag{
+    display: grid;
+    float: left;
+    padding-right: 60px;
+}
+.aboutus-tag a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.about-content h1{
+    padding-top: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.apps-content{
+float: left;
+color: white;
+}
+
+.apps-content h1{
+    float: left;
+    padding-top: 25px;
+    
+    padding-left: 35px;
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+    float: left;
+}
+
+.facebook{
+    color: white;
+    padding-inline-start:5vh;
+}
+
+.twitter{
+    color: white;
+    padding-inline-start: 5vh; 
+}
+.twitter:hover{
+    color: #5da9dd;
+}
+.youtube{
+    color: white;
+    padding-inline-start: 5vh;
+}
+.youtube:hover{
+    color: red;
+}
+.instagram{
+    color: white;
+    padding-inline-start: 5vh;
+}
+.instagram:hover{
+    color: #FF3399;
+} 
+
+.api-tag{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+
+.api1{
+    width: 50%;
+    height: 80vh;
+    float: left;
+     padding-left: 60px;
+    padding-top: 100px; 
+    background-image :url(image/api1.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+   
+}
+.api2{
+    width: 50%;
+    height: 80vh;
+    padding-top: 100px;
+    padding-left: 50px; 
+    background-image:url(image/api2.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.api1 h2{
+ color: white;
+ font-size: 30px;
+}
+.api1 h1{
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+}
+.api1 p{
+    color: white;
+    padding-top: 20px;
+
+}
+.api2 h2{
+    color: white;
+    font-size: 30px;
+}
+.api2 h1{
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+}
+.api2 p{
+    color: white;
+    padding-top: 20px;
+}
+.api1 a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid #f20091;
+    padding: 9px 23px ;
+    display: inline-block;
+    text-align: center;
+    margin: 6px 2px;
+    cursor: pointer;
+    background:#f20091 ;
+    font-size: 18px;
+    font-weight: bold;
+}
+.api2 a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid #f20091;
+    padding: 9px 23px ;
+    display: inline-block;
+    text-align: center;
+    margin: 6px 2px;
+    cursor: pointer;
+    background:#f20091 ;
+    font-size: 18px;
+    font-weight: bold;
+}
+.api1 a:hover{
+    background: #fa5f9b;
+    border-color:#fa5f9b ;
+}
+.api2 a:hover{
+    background: #fa5f9b;
+    border-color:#fa5f9b ;
+}
+.btn1{
+    border: 2px solid ;
+}
+.work-done{
+    width: 100%;
+    float: left;
+    height: auto;
+    background-color: white;
+    display: grid;
+    
+    
+    
+    
+}
+.workdone-tag1{
+    width: 100%;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+    
+}
+.work-done-content{
+    width: 100%;
+    float: left;
+   
+}
+.work-done-content h1{
+    font-size: 40px;
+    float: left;
+
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    color: black;
+}
+.workdone-tag1 a{
+    display: flex;
+    text-align: center;
+    text-decoration: none ;
+    
+}
+.workdone-tag1 a i{
+    font-size: 25px;
+}
+.workdone-tag1 a p{
+    color: black;
+    padding-left: 15px;
+}
+.website-tag{
+    float: left;
+    padding-left: 60px;
+    padding-top: 50px;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}
+.translation-tag{
+    float: left;
+    display: grid;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top:50px ;
+}
+.python-tag{
+    float: left;
+    display: grid;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.excel-tag{
+    float: left;
+    display: grid;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.photoshop-tag{
+    float: left;
+    padding-right: 70px;
+    display: grid;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 30px;  
+}
+.workdone-tag1 a{
+    padding-bottom: 30px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding-left: 50px;
+
+}
+
+.make-it{
+ float: left;
+ display: grid;
+ width: 100%;
+ height: auto;
+ margin-left: 60px;
+ padding-top: 70px;
+ padding-bottom: 60px;
+}
+.make-it-h1{
+    font-weight: bold;
+    font-size: 45px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.make-it-p{
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 25px;
+
+}
+
+.cls{
+    display: grid;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.image-2{
+    display: inline-block;
+    width: 25%;
+    padding-bottom: 40px;
+}
+figure{
+    overflow: hidden;
+    margin: 0 10px;
+}
+.image {
+    display: grid;
+    
+}
+.image-2 h1{
+    color: black;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.image-2 .hover{
+    display:block ;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.image-2 #zoom-in .hover
+{
+    transform:scale(1);
+     transition: 0.3s ease-in-out;
+}
+.image-2 #zoom-in:hover .hover 
+{
+    
+     transform:scale(1.5);
+     
+}
+
+
